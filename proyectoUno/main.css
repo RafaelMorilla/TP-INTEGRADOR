@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #71eb2a;
+    padding: 10px 0;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    /* Centra los enlaces horizontalmente */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li { 
+    margin: 0 15px;
+    /* Espacio entre los enlaces */
+}
+

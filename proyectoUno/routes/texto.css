@@ -1,0 +1,25 @@
+body { 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.animated-text {
+    font-size: 32px;
+    color: #007bff;
+    animation: colorChange 3s infinite alternate, sizeChange 3s infinite alternate;
+}
+
+@keyframes colorChange { 
+    0% { color: #007bff; }
+    100% { color: #ff5733; }
+}
+
+@keyframes sizeChange {
+    0% { font-size: 32px; }
+    100% { font-size: 48px; }
+}
